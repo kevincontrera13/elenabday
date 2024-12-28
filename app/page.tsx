@@ -34,7 +34,7 @@ export default function BirthdayQuizGame() {
   return (
     <div className="min-h-screen p-8">
       <h1 className="text-[8vw] font-bold leading-none tracking-tight mb-12 px-4">
-        Elena's twentysexies Birthday Quiz
+        Elena&#39;s twentysexies Birthday Quiz
       </h1>
       
       <MetadataRow 
