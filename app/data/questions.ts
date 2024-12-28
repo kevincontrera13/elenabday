@@ -28,7 +28,7 @@ export const questions: Question[] = [
     text: "what is yours BF favorite Austrian word?",
     answers: ["Genau", "Geh, Komnsinooo!", "Oida", "Reparaturseidl"],
     correctAnswer: "Geh, Komnsinooo!",
-    photoDescription: "Enjoying the sun"
+    photoDescription: "Asofuckingsino"
   },
   {
     text: "Where were we the drunkest together?",
@@ -37,16 +37,16 @@ export const questions: Question[] = [
     photoDescription: "I wasn't that drunk"
   },
   {
-    text: "What is our favorite restaurant?",
-    answers: ["Ethiopian", "Honest Greens", "Parking pita", "Baozi bar"],
-    correctAnswer: "Ethiopian",
+    text: "What its my favorite drink because of you?",
+    answers: ["Kaiserspritzer", "vodka-soda", "natural wine", "Ottakringer"],
+    correctAnswer: "Ottakringer",
     photoDescription: "its soo fucking good"
   },
   {
     text: "What is the thing you always do but never admit?",
     answers: ["the correct answer is the last one", "the correct answer is the last one", "the correct answer is the last one", "nap watching a series"],
     correctAnswer: "nap watching a series",
-    photoDescription: "Dancing to The Strokes"
+    photoDescription: "but the cutest!!"
   },
   {
     text: "What's the coolest thing that happened this year?",

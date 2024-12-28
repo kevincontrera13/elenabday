@@ -36,20 +36,18 @@ export default function QuizCard({ question, onCorrectAnswer, revealed, index }:
     >
       {showPhoto ? (
         <div className="absolute inset-0 transition-opacity duration-1000 flex items-center justify-center">
-          <div className="relative w-full h-0 pb-[75%]">
+          <div className="relative w-full h-full">
             <Image
               src={`/photos/photo-${index + 1}.jpg`}
               alt={question.photoDescription}
               fill
               className="object-cover rounded-lg"
               sizes="(max-width: 768px) 100vw, 33vw"
-              width={800}
-              height={600}
               priority
             />
           </div>
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-lg">
-            <p className="font-mono text-white text-2xl font-bold text-center px-4">
+          <div className="absolute inset-0 flex items-center justify-center rounded-lg">
+            <p className="font-mono text-white text-2xl font-bold text-center px-4 text-shadow-lg">
               {question.photoDescription}
             </p>
           </div>
